@@ -1,5 +1,6 @@
 variable "vpc-tag" {
   type = string
+  default = "vpc"
 }
 
 variable "ami-id" {
